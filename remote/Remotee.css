@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  margin:2rem;
+  padding:0;
+}
+
+/* .container{
+    width:60%;
+    margin:auto;
+
+} */
+header{
+    position: relative;
+}
+nav{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content:space-between;
+    right:0;
+    left: 30%;
+    top: -30%;
+}
+.first{
+    display: flex;
+    gap: 4rem;
+   
+    /* margin-left: -10%; */
+    /* margin-right: 30% ; */
+}
+
+
+
+.first li{
+     cursor: pointer;
+}
+
+
+.third{
+    background-color: aqua;
+    line-height:3rem;
+    width:14rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:none;
+}
+
+.third li a{
+     font-size:2rem;
+     
+}
+
+#checkboxx:checked ~ .third{
+    display:block;
+} 
+
+#checkboxx{
+    display:none;
+}
+
+.third li a:hover{
+    text-transform:uppercase;
+    color:gold
+}
+
+.fourth{
+    background-color: aqua;
+    line-height:3rem;
+    width:14rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:none;
+}
+
+.fourth li a{
+    font-size:2rem;
+}
+
+.fourth li a:hover{
+    text-transform:uppercase;
+    color:gold
+}
+
+#checkboxxx:checked ~ .fourth{
+    display:block;
+} 
+
+#checkboxxx{
+    display:none;
+}
+
+.second{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav ul li img{
+    display:inline;
+    position:absolute;
+    top:1rem
+}
+
+#checkbox{
+    display: none;
+}
+
+nav ul li{
+    list-style:none;
+    width: 100%;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+nav ul li a{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #333;
+}
+.link{
+    padding: 10px  20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.link:hover{
+ text-decoration: none;
+ color: #333;
+}
+.icon-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.burger{
+    display: none;
+}
+
+.first-icon-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    gap:2rem
+}
+
+/* .icon-list{
+    display:flex;
+    flex-direction:row; 
+    justify-content:;
+    gap:2rem;
+} */
+
+.first-icons{
+    display:flex;
+    flex-direction:row;
+    text-transform: capitalize;
+    gap:2rem;
+    font-size:1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;
+}
+
+.menu{
+    display:none
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    color:blue;
+    text-decoration:underline;
+}
+
+.second-icons{
+    display:flex;
+    justify-content:flex-end;
+    gap:1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login:hover{
+    color:blue;
+    text-decoration:underline;
+
+}
+
+button{
+    width:7rem;
+    height:2rem;
+    border-radius:0.5rem;
+    margin-top:-2.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+.mainn{
+     padding-top: 3rem;
+     width:80%;
+     margin:auto;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+}
+
+.remote{
+    font-size:4rem;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+span{
+    display:block
+}
+
+.sub-text{
+    margin-top:2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnn{
+    margin-top:1.5rem;
+    background-color: black;
+    color:white;
+    text-transform:capitalize;
+    height:2.5rem
+}
+
+.btnn:hover{
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    transition:all 0.4s linear;
+}
+
+.social{
+   margin-top:5rem;
+   display:flex;
+   gap:1rem;
+}
+
+.image{
+    height:1.5rem;
+}
+
+.second-image{
+    height:29rem;
+    width:28rem;
+}
+
+
+@media (max-width: 750px){
+
+
+*{
+    outline: solid 3px red
+}    
+
+nav{
+    display: none;
+}
+
+.burger{
+    display: block;
+}
+
+.burger:hover{
+    cursor: pointer;
+    width:3rem;
+}
+
+#checkbox:checked ~ nav{
+    display: block;
+}
+
+#checkboxx{
+    display: none;
+}
+
+.second{
+    display: none;
+}
+.first{
+    position: absolute;
+    display: block;
+    top: 6rem;
+    left: -25%;
+    text-align: center;
+    line-height: 5rem;
+    background: #7134ff;
+    width: 100%;
+    
+}
+
+.first li{
+    font-size: 2rem;
+    color: #fff;
+    /* transition: ease 3s linear; */
+}
+
+.first li:hover{
+    color: gold;
+    text-transform: uppercase;
+   
+}
+
+.first li a{
+    font-size: 2rem;
+    color: #fff;
+    /* transition: ease 3s linear; */
+}
+.first li a:hover{
+    color: gold;
+    text-transform: uppercase;
+   
+}
+
+.first-icon-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first-icons{
+    display:none;
+}
+
+.menu{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.login{
+    display:none;
+}
+
+.btn{
+    display:none;
+}
+
+.mainn{
+    width:100%;
+    /* margin:auto; */
+    display:flex;
+   flex-direction:column-reverse;
+}
+
+span{
+    display:inline;
+}
+
+.remote{
+    font-size:2.5rem;
+    display:inline;
+    /* justify-content: ; */
+}
+
+.sub-text{
+     font-size:1.5rem;
+     justify-content: center;
+    /* display:flex;
+    justify-content: center; */
+}
+
+.btnn-container{
+    display:flex;
+    margin-top:2rem;
+    justify-content: center;
+}
+
+.btnn{
+    width:10rem;
+    height:3rem;
+    font-size:1.2rem;
+}
+
+}
+
+
+
+
+
+
+
+

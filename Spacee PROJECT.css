@@ -1,0 +1,465 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header-list li{
+    list-style:none;
+    text-align: center;
+}
+
+.header-list li a{
+   text-decoration: none; 
+   text-transform: uppercase;
+   color: white;
+   font-family:'Courier New', Courier, monospace;
+   font-weight:100;
+}
+.header-list li a:active{
+    text-decoration:underline;
+    color:red;
+    
+}
+
+.header-list li a:visited{
+    text-decoration:underline;
+}
+
+/* .header-list li a:hover{
+    text-decoration:underline;
+} */
+
+.first-body{
+    background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+}
+
+header{
+    padding-top:1rem;
+    padding-left:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-list{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:2rem;
+    background-color: rgba(42, 42, 217, 0.198);
+    /* background-color:linear-gradient(red,green); */
+    width:43rem;
+    height:4rem;
+}
+
+.first-main{
+    margin-top:6rem;
+    padding:6rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.first-half{
+    width:35%;
+}
+
+.paragraph-heading{
+    color:white;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-size:1.5rem;
+    font-weight:100;
+}
+
+.first-heading{
+    font-size:10rem;
+    color:white;
+    text-transform:uppercase;
+    font-weight:lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraph-text{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:14rem;
+    height:13rem;
+    background:white;
+    color:black;
+    border-radius:100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:700;
+}
+
+.button-container:hover{
+    cursor:pointer;
+}
+
+
+
+
+
+/* DESTINATION */
+
+.second-body{
+    background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+}
+
+.second-main{
+    margin-top:2rem;
+    padding-top:0;
+    padding-left:6rem;
+    padding-right:6rem;
+}
+
+.second-heading{
+    color:white;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-size:1.5rem;
+    font-weight:100;
+}
+
+.mars-destination{
+    display:flex;
+    justify-content:space-between;
+    margin-top:7rem;
+    width:100%;
+}
+
+.mars-pic{
+    width:14rem;
+    height:14rem;
+}
+
+.planets{
+    display:flex;
+    gap:2rem;
+}
+
+.second-section{
+    width:35%;
+}
+
+.second-nav .planets li{
+    list-style: none;
+}
+
+.second-nav .planets li a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Courier New', Courier, monospace;
+   font-weight:100;
+}
+    
+.secondd-headingg{
+    font-size:7rem;
+    color:white;
+    text-transform:uppercase;
+    font-weight:lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-paragraph{
+    color:white;
+    font-weight:lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-line{
+    margin-top:3rem;
+    background-color:rgba(231, 221, 221, 0.055);
+    height:0.3rem;
+    border:none;
+}
+
+.distance{
+    display:flex;
+    gap:3rem;
+    margin-top:2rem;
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:100;
+}
+
+span{
+    display:block;
+    font-size:2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+}
+
+
+
+
+
+/* CREW */
+
+.third-body{
+    background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+}
+
+.header-list-crew li{
+    list-style:none;
+    text-align: center;
+}
+
+.header-list-crew li a{
+   text-decoration: none; 
+   text-transform: uppercase;
+   color: white;
+   font-family:'Courier New', Courier, monospace;
+   font-weight:100;
+}
+.header-list-crew li a:active{
+    text-decoration:underline;
+    color:red;
+    
+}
+
+.header-list-crew li a:visited{
+    text-decoration:underline;
+}
+
+.header-list-crew{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:2rem;
+    background-color: rgba(3, 3, 43, 0.294);
+    /* background-color:linear-gradient(red,green); */
+    width:43rem;
+    height:4rem;
+}
+
+.third-main{
+    margin-top:4rem;
+    padding-top:0;
+    padding-left:6rem;
+    padding-right:6rem;
+}
+
+.third-heading{
+    color:white;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-size:1.5rem;
+    font-weight:100;
+}
+
+.third-section{
+    margin-top:3rem;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.third-sectionn{
+    padding-top:5rem;
+    width:40%
+}
+
+.third-headingg{
+    text-transform:uppercase;
+    font-weight:lighter;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.third-headinggg{
+    padding-top:1rem;
+    font-size:2.5rem;
+    font-weight:100;
+    color:white;
+    text-transform: uppercase;
+}
+
+.ansari{
+    padding-top:2rem;
+    color:white;
+    font-weight:100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.space-woman{
+    width:28rem;
+}
+
+.circle{
+    display:flex;
+    gap:1rem;
+    padding-top:6rem;
+}
+
+.inner-circle{
+    height:1rem;
+    width:1rem;
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 50%;
+}
+
+.inner-circlee{
+    height:1rem;
+    width:1rem;
+    background-color:white;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* DESTINATION */
+
+.fourth-body{
+    background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+}
+
+.header-list-technology li{
+    list-style:none;
+    text-align: center;
+}
+
+.header-list-technology li a{
+   text-decoration: none; 
+   text-transform: uppercase;
+   color: white;
+   font-family:'Courier New', Courier, monospace;
+   font-weight:100;
+}
+.header-list-technology li a:active{
+    text-decoration:underline;
+    color:red;
+    
+}
+
+.header-list-technology li a:visited{
+    text-decoration:underline;
+}
+
+.header-list-technology{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:2rem;
+    background-color: rgba(3, 3, 43, 0.294);
+    /* background-color:linear-gradient(red,green); */
+    width:43rem;
+    height:4rem;
+}
+
+.fourth-main{
+    margin-top:4rem;
+    padding-top:0;
+    padding-left:6rem;
+    /* padding-right:6rem; */
+}
+
+.fourth-heading{
+    color:white;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-size:1.5rem;
+    font-weight:100;
+}
+
+.fourth-section{
+    display:flex;
+    gap:21rem;
+}
+
+.fourth-sectionn{
+    padding-top:5rem;
+    display:flex;
+    gap:4rem;
+
+}
+
+.number-list{
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+
+.number{
+    height:4rem;
+    width:4rem;
+    background-color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.numberr{
+    height:4rem;
+    width:4rem;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius:50%;
+    border:2px solid rgba(255, 255, 255, 0.365);
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-paragraph{
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+
+}
+
+.launch{
+    color:white;
+    font-size:4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:100;
+}
+
+.tech-writeup{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.rocket{
+    width:28rem;
+}
+
+
+
+
+
+
+
+
+
+

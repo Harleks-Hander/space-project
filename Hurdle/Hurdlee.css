@@ -1,0 +1,121 @@
+
+body{
+ background-image:url("./images/bg-desktop.svg");
+ background-color:hsl(257, 40%, 49%);
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-attachment:fixed;
+ 
+}
+
+.container{
+  /* margin-left:2rem; */
+  width: 80%;
+  margin: auto;
+}
+
+.image-container{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.huddle-logo{
+    margin-top:2rem;
+}
+
+.build-container{
+    display:flex;
+    justify-content:center;
+    gap: 2rem;
+    margin-top:2rem;
+}
+.image{
+    width: 70%;
+}
+
+.text{
+    text-transform: capitalize;
+    color:white;
+    font-size:2rem;
+    font-family:sans-serif;
+    font-weight:500;
+    line-height: 2.5rem;
+    margin-top:2rem;
+    /* margin-right:18rem; */
+    /* margin-right:20rem; */
+}
+
+.community{
+    font-weight:700;
+    line-height:2.4rem;
+    font-size:2rem;
+}
+span{
+    display: block;
+}
+
+
+.sub-text{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    text-transform:none;
+}
+
+.image{
+    /* margin-left:-25rem;  */
+    margin-right:auto;
+}
+
+button{
+    width:10rem;
+    height:3rem;
+    border-radius:2rem;
+}
+
+.btn{
+   font-size: 1rem; 
+   text-transform: capitalize;
+}
+
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    transition: all 0.4s linear;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .huddle-logo{
+        margin-top:2rem;
+        width:8rem;
+    }
+    
+    .build-container{
+        flex-direction:column;
+    }
+    
+    .image{
+        width:26rem;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .sub-text{
+        text-align: center;
+    }
+
+    .btn-container{
+        text-align: center;
+    }
+   
+    
+    button{
+        width:16rem;
+    }
+}
