@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+/* HOME */
+
 .header-list li{
     list-style:none;
     text-align: center;
@@ -61,11 +67,11 @@ header{
     margin-top:6rem;
     padding:6rem;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .first-half{
-    width:35%;
+    width:40%;
 }
 
 .paragraph-heading{
@@ -77,7 +83,7 @@ header{
 }
 
 .first-heading{
-    font-size:10rem;
+    font-size:8rem;
     color:white;
     text-transform:uppercase;
     font-weight:lighter;
@@ -91,14 +97,14 @@ header{
 
 .button-container{
     margin-top: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:14rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:13rem;
     height:13rem;
     background:white;
     color:black;
-    border-radius:100%;
+    border-radius:50%;
     text-align: center;
     text-transform: uppercase;
     font-weight:700;
@@ -457,8 +463,60 @@ span{
 
 
 
-@media (max-width:750px) {
+@media (max-width:800px) {
+   
+    .first-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg");
+        height:100%;
+    }
+
+    header{
+        width:100%
+    }
+   
+    .header-list{
+        width:29rem;
+    }
+
+    .header-list li a{
+        font-size:smaller;
+    }
+
+    .first-main{
+        margin-top:1rem;
+        padding-top:2rem;
+        display:block; 
+        
+    }
     
+    .first-half{
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+
+    .paragraph-heading{
+        display:block;
+    }
+
+    .first-heading{
+        font-size:6rem;
+    }
+
+    .paragraph-text{
+        width:100%;
+    }
+
+    .button-container{
+        margin-top:2rem;
+
+    }
+    .main-btn{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:0
+    }
 }
 
 
