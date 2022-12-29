@@ -37,6 +37,14 @@
     text-decoration:underline;
 } */
 
+#checkbox{
+    display:none;
+}
+
+.hamburger{
+    display:none;
+}
+
 .first-body{
     background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
     background-repeat:no-repeat;
@@ -285,6 +293,8 @@ span{
 }
 
 .third-sectionn{
+    display:flex;
+    flex-direction: column;
     padding-top:5rem;
     width:40%
 }
@@ -339,7 +349,7 @@ span{
 
 
 
-/* DESTINATION */
+/* TECHNOLOGY */
 
 .fourth-body{
     background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg");
@@ -361,6 +371,7 @@ span{
    font-family:'Courier New', Courier, monospace;
    font-weight:100;
 }
+
 .header-list-technology li a:active{
     text-decoration:underline;
     color:red;
@@ -406,7 +417,6 @@ span{
     padding-top:5rem;
     display:flex;
     gap:4rem;
-
 }
 
 .number-list{
@@ -463,8 +473,12 @@ span{
 
 
 
-@media (max-width:800px) {
+@media (max-width:980px) {
    
+
+
+    /* HOME */
+
     .first-body{
         background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg");
         height:100%;
@@ -508,8 +522,9 @@ span{
     }
 
     .button-container{
-        margin-top:2rem;
-
+        margin-top:4rem;
+        height:11rem;
+        width:11rem;
     }
     .main-btn{
         display: flex;
@@ -517,12 +532,352 @@ span{
         align-items:center;
         margin-top:0
     }
+    
+
+
+    /* DESTINATION */
+
+    .second-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-tablet.jpg");
+        height:100%;
+    }
+
+    .second-heading{
+        font-size:1.2rem;
+        padding-left:1rem;
+    }
+
+    .second-header{
+        padding-top:0.5rem;
+    }
+
+    .second-main{
+        margin-top:1rem;
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .second-section{
+        width:70%
+    }
+
+    .mars-destination{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin-top:1rem;
+        width:100%;
+    }
+
+    .mars-pic{
+        height:12rem;
+        width:12rem;
+    }
+
+    .second-nav ul{
+        display:flex;
+        padding-top:1rem;
+        justify-content:center;
+    }
+
+    .secondd-headingg{
+        font-size:5rem;
+        display:block;
+        text-align:center;
+    }
+
+    .second-paragraph{
+        display:block;
+        text-align:center;
+    }
+
+    .second-line{
+        margin-top:1rem;
+    }
+
+    .distance{
+        margin-top:0.5rem;
+        display: block;
+        text-align: center;
+    }
+
+    span{
+        font-size:1.3rem;
+        text-align:center;
+    }
+
+
+
+    /* CREW */
+   
+    .third-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-tablet.jpg");
+        height:100%;
+    }
+
+    .header-list-crew{
+        width:29rem;
+    }
+
+    .header-list-crew li a{
+        font-size:smaller;
+    }
+
+    .third-heading{
+        font-size:1.2rem;
+        padding-left:1rem;
+    }
+
+    .third-main{
+        margin-top:1rem;
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .third-section{
+        flex-direction:column;
+        margin-top:1rem;
+        /* width:100%; */
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .third-sectionn{
+        padding-top:1rem;
+        width:70%;
+    }
+
+    .third-headingg{
+        display:block;
+        text-align:center;
+    }
+
+    .third-headinggg{
+        display:block;
+        text-align:center;
+        width:100%;
+        font-size:2rem;
+        padding-top:0.3rem;
+    }
+
+    .ansari{
+        width:100%;
+        display:block;
+        text-align:center;
+        padding-top:0.5rem;
+    }
+
+    .circle{
+        justify-content:center;
+        align-items:center;
+        padding-top:1.5rem;
+    }
+
+    .inner-circle{
+        height:0.5rem;
+        width:0.5rem;
+    }
+
+    .inner-circlee{
+        height:0.5rem;
+        width:0.5rem;
+    }
+
+    .space-woman{
+        width:20rem;
+    }
+
+    .img-container{
+        padding-top:1.5rem;
+    }
+
+
+
+    /* TECHNOLOGY */
+
+    .fourth-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg");
+        height:100%;
+    }
+
+    .header-list-technology{
+        width:29rem;
+    }
+
+    .header-list-technology li a{
+        font-size:smaller;
+    }
+
+    .fourth-heading{
+        font-size:1.2rem;
+    }
+
+    .fourth-main{
+        margin-top:1rem;
+        padding-top:0;
+        padding-left:0;
+        /* padding-right:6rem; */
+    }
+
+    .fourth-section{
+       flex-direction:column-reverse;
+       gap:0;
+       width:100%;
+    }
+
+    .fourth-sectionn{
+        flex-direction: column;
+        padding-top:1rem;
+        gap:1rem;
+    }
+
+    .rocket{
+        width:100%;
+        height:60vh;
+        object-fit:cover;
+        object-position:bottom;
+    }
+
+    .fourth-sectionnnn{
+        width:100%;
+        height:30%;
+    }
+
+    .launch{
+        font-size:2.5rem;
+    }
+
+    .number-list{
+        flex-direction:row;
+        width:100%;
+        justify-content:center;
+        align-items:center;
+        gap:1rem;
+    }
+
+    .fourth-sectionnn{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .number{
+        height:2.5rem;
+        width:2.5rem;
+    }
+
+    .numberr{
+        height:2.5rem;
+        width:2.5rem;
+    }
+
 }
 
+@media (max-width:600px){
 
 
 
+    /* HOME */
+
+    .first-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg");
+        height:100%;
+    } 
+
+    .first-nav{
+        display:none;
+    }
+
+    #checkbox{
+        display:none;
+    }
+    
+    .hamburger{
+        display:block;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+    
+    .header-list{
+        position:absolute;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        right:0;
+        background-color: rgba(42, 42, 217);
+        height:10rem;
+        width:60%;
+        line-height:0.5rem;
+    }
+
+    #checkbox:checked ~ .first-nav{
+        display:block;
+    }
 
 
 
+    /* DESTINATION */
 
+    .second-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg");
+        height:100%;
+    }
+    
+    
+
+    /* CREW */
+
+    .third-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg");
+        height:100%;
+    }
+
+    .header-list-crew{
+        position:absolute;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        right:0;
+        background-color: rgba(42, 42, 217);
+        height:10rem;
+        width:60%;
+        line-height:0.5rem;
+    }
+
+    .third-sectionn{
+        flex-direction:column-reverse;
+    }
+
+    .third-section{
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* TECHNOLOGY */
+
+    .fourth-body{
+        background-image:url("./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg");
+        height:100%;
+    }
+
+    .header-list-technology{
+        position:absolute;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        right:0;
+        background-color: rgba(42, 42, 217);
+        height:10rem;
+        width:60%;
+        line-height:0.5rem;
+    }
+}
